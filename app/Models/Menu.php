@@ -33,6 +33,11 @@ class Menu extends Model
         return $this->hasMany(self::class, 'parent_id');
     }
 
+    public function instance()
+    {
+        return $this->belongsTo(Instance::class, 'instance_id');
+    }
+
     public static function getPermit()
     {
         return arrayWithKey([

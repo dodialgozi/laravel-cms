@@ -5,7 +5,9 @@ namespace App\Http\Controllers\Api;
 use App\Models\Instance;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Http\Resources\MenuResource;
 use App\Http\Resources\CourseResource;
+use App\Http\Resources\SliderResource;
 use App\Http\Resources\AlumnusResource;
 use App\Http\Resources\ContactResource;
 use App\Http\Resources\PartnerResource;
@@ -20,6 +22,13 @@ class InstanceController extends Controller
     {
         $instance = Instance::firstWhere('instance_domain', $request->route('domain'));
         return InstanceResource::make($instance);
+    }
+
+    public function menu(Request $request)
+    {
+        $instance = Instance::firstWhere('instance_domain', $request->route('domain'));
+        $menus = $instance->menus;
+        return MenuResource::collection($menus);
     }
 
     public function partners(Request $request)
@@ -66,5 +75,13 @@ class InstanceController extends Controller
         $courses = $instance->courses;
 
         return CourseResource::collection($courses);
+    }
+
+    public function sliders(Request $request)
+    {
+        $instance = Instance::firstWhere('instance_domain', $request->route('domain'));
+        $sliders = $instance->sliders;
+
+        return SliderResource::collection($sliders);
     }
 }

@@ -81,4 +81,9 @@ class Instance extends Model
     {
         return $this->hasMany(Course::class, 'instance_id', 'instance_id');
     }
+
+    public function menu()
+    {
+        return $this->hasMany(Menu::class, 'instance_id', 'instance_id');
+    }
 }
