@@ -1,0 +1,150 @@
+[
+    {
+        "group": "Roles",
+        "default": true,
+        "key": "roles"
+    },
+    {
+        "group": "User",
+        "default": true,
+        "key": "user",
+        "permissions": [
+            "rincian"
+        ]
+    },
+    {
+        "group": "Post",
+        "default": true,
+        "key": "post",
+        "permissions": [
+            "rincian",
+            {
+                "key": "schedule",
+                "name": "Menjadwalkan Post"
+            },
+            {
+                "key": "publish",
+                "name": "Publikasi Post"
+            },
+            {
+                "key": "editor",
+                "name": "Melihat Post dan Mengedit Post Orang Lain"
+            },
+            {
+                "key": "tanggal",
+                "name": "Mengubah Tanggal Posting Post"
+            },
+            {
+                "key": "meta",
+                "name": "Menambahkan meta Post"
+            }
+        ]
+    },
+    {
+        "group": "Page",
+        "default": true,
+        "key": "page",
+        "permissions": [
+            "rincian"
+        ]
+    },
+    {
+        "group": "Pengaturan",
+        "default": false,
+        "key": "pengaturan",
+        "permissions": [
+            {
+                "key": "umum",
+                "name": "Lihat Pengaturan Umum"
+            },
+            {
+                "key": "situs",
+                "name": "Lihat Pengaturan Situs"
+            },
+            {
+                "key": "menu",
+                "name": "Lihat Pengaturan Menu"
+            },
+            {
+                "key": "post-meta",
+                "name": "Lihat Pengaturan Post Meta"
+            }
+        ]
+    },
+    {
+        "group": "Custom Post Category",
+        "default": true,
+        "key": "custom-post-category",
+        "permissions": [
+            "rincian"
+        ]
+    },
+    {
+        "group": "Custom Post Type",
+        "default": true,
+        "key": "custom-post-type",
+        "permissions": [
+            "rincian"
+        ]
+    },
+    {
+        "group": "Kategori",
+        "default": true,
+        "key": "post-kategori"
+    },
+    {
+        "group": "Kategori Jurnalis",
+        "default": true,
+        "key": "kategori-jurnalis"
+    },
+    {
+        "group": "Tag",
+        "default": true,
+        "key": "post-tag"
+    },
+    {
+        "group": "Instansi",
+        "default": true,
+        "key": "instance"
+    },
+    {
+        "group": "User Instansi",
+        "default": true,
+        "key": "user-instance"
+    },
+    {
+        "group": "Alumnus",
+        "default": true,
+        "key": "alumnus"
+    },
+    {
+        "group": "Gallery",
+        "default": true,
+        "key": "gallery"
+    },
+    {
+        "group": "Partner",
+        "default": true,
+        "key": "partner"
+    },
+    {
+        "group": "Lecturer",
+        "default": true,
+        "key": "lecturer"
+    },
+    {
+        "group": "Course",
+        "default": true,
+        "key": "course"
+    },
+    {
+        "group": "Slider",
+        "default": true,
+        "key": "slider"
+    },
+    {
+        "group": "Contact",
+        "default": true,
+        "key": "contact"
+    }
+]

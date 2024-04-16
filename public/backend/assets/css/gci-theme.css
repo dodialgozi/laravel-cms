@@ -1,0 +1,102 @@
+body[data-sidebar=gci] .navbar-brand-box,
+body[data-sidebar=gci] .vertical-menu {
+    background: #990000;
+}
+
+body[data-sidebar=gci] .logo-dark {
+    display: none;
+}
+
+body[data-sidebar=gci] .logo-light {
+    display: block;
+}
+
+body[data-sidebar=gci] .mm-active,
+body[data-sidebar=gci] .mm-active>a,
+body[data-sidebar=gci] .mm-active>a i,
+body[data-sidebar=gci] .mm-active>i,
+body[data-sidebar=gci] .mm-active .active,
+body[data-sidebar=gci] .mm-active .active i {
+    color: #fff!important;
+}
+
+body[data-sidebar=gci] .mm-active .active,
+body[data-sidebar=gci] .mm-active .active i {
+    font-weight: 500;
+}
+
+body[data-sidebar=gci] .menu-title {
+    color: #f1a2a2;
+}
+
+body[data-sidebar=gci] #sidebar-menu ul li a,
+body[data-sidebar=gci] #sidebar-menu ul li a i {
+    color: #f1a2a2;
+}
+
+body[data-sidebar=gci] #sidebar-menu ul li a:hover,
+body[data-sidebar=gci] #sidebar-menu ul li a:hover i,
+body[data-sidebar=gci] #sidebar-menu ul li ul.sub-menu li a:hover,
+body[data-sidebar=gci] #sidebar-menu ul li ul.sub-menu li a:hover i {
+    color: #fff;
+}
+
+body[data-sidebar=gci] #sidebar-menu ul li ul.sub-menu li a {
+    color: #f1a2a2;
+}
+
+
+/* theme primary */
+body[data-sidebar=gci] .theme.bg-primary.bg-soft {
+    background-color: #990000ba !important;
+}
+body[data-sidebar=gci] .theme.text-primary {
+    color: #d20000 !important;
+}
+body[data-sidebar=gci] .theme.btn-primary {
+    background-color: #ab2e2e !important;
+}
+body[data-sidebar=gci] .theme.btn-primary:hover,
+body[data-sidebar=gci] .theme.btn-primary:focus {
+    background-color: #990000 !important;
+}
+body[data-sidebar=gci] .theme.btn-primary {
+    border-color: #990000 !important;
+}
+body[data-sidebar=gci] .theme.btn-primary:focus {
+    box-shadow: 0 0 0 0.15rem rgb(112 14 14 / 50%);
+}
+
+/* tablist */
+body[data-sidebar=gci] .checkout-tabs .nav-pills .nav-link.active {
+    background-color: #cf3232;
+}
+body[data-sidebar=gci] .nav-link:focus,
+body[data-sidebar=gci] .nav-link:hover {
+    color: #cf3232;
+}
+body[data-sidebar=gci] .nav-pills,
+body[data-sidebar=gci] .nav-link.active,
+body[data-sidebar=gci] .nav-pills,
+body[data-sidebar=gci] .show>.nav-link {
+    color: #fff;
+}
+
+
+/* tinymce */
+body[data-sidebar=gci] .tox .tox-tbtn {
+    color: #495057 !important;
+}
+body[data-sidebar=gci] .tox .tox-tbtn--enabled {
+    background: #c8cbcf !important;
+}
+
+.tui-full-calendar-weekday-grid-line.tui-full-calendar-near-month-day .tui-full-calendar-weekday-grid-header .tui-full-calendar-weekday-grid-date {
+    color: inherit !important
+}
+.tui-full-calendar-month-dayname-item .tui-full-calendar-holiday-sun {
+    color: #ff4040 !important;
+}
+.tui-full-calendar-month-week-item .tui-full-calendar-today .tui-full-calendar-weekday-grid-date.tui-full-calendar-weekday-grid-date-decorator {
+    color: white !important;
+}

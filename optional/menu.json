@@ -1,0 +1,139 @@
+[
+    {
+        "menu_name": "Post",
+        "menu_link": "",
+        "menu_class": "",
+        "menu_icon": "bx bx-file",
+        "permission": "",
+        "menu_children": [
+            {
+                "menu_name": "Semua Post",
+                "menu_link": "{[BASEURL]}/post",
+                "menu_class": "",
+                "permission": "post.lihat"
+            },
+            {
+                "menu_name": "Kategori",
+                "menu_link": "{[BASEURL]}/post-kategori",
+                "menu_class": "",
+                "permission": "post-kategori.lihat"
+            },
+            {
+                "menu_name": "Tag",
+                "menu_link": "{[BASEURL]}/post-tag",
+                "menu_class": "",
+                "permission": "post-tag.lihat"
+            }
+        ]
+    },
+    {
+        "menu_name": "Page",
+        "menu_link": "{[BASEURL]}/page",
+        "menu_class": "",
+        "menu_icon": "bx bx-user",
+        "permission": "page.lihat"
+    },
+    {
+        "menu_name": "Alumnus",
+        "menu_link": "{[BASEURL]}/alumnus",
+        "menu_class": "",
+        "menu_icon": "bx bx-user",
+        "permission": "alumnus.lihat"
+    },
+    {
+        "menu_name": "Pengaturan",
+        "menu_link": "",
+        "menu_class": "",
+        "menu_icon": "bx bxs-cog",
+        "permission": "",
+        "menu_children": [
+            {
+                "menu_name": "Pengaturan Umum",
+                "menu_link": "{[BASEURL]}/pengaturan/umum",
+                "menu_class": "",
+                "permission": "pengaturan.umum"
+            },
+            {
+                "menu_name": "Pengaturan Situs",
+                "menu_link": "{[BASEURL]}/pengaturan/situs",
+                "menu_class": "",
+                "permission": "pengaturan.situs"
+            },
+            {
+                "menu_name": "Pengaturan Menu",
+                "menu_link": "{[BASEURL]}/pengaturan/menu",
+                "menu_class": "",
+                "permission": "pengaturan.menu"
+            },
+            {
+                "menu_name": "Pengaturan Post Meta",
+                "menu_link": "{[BASEURL]}/pengaturan/post-meta",
+                "menu_class": "",
+                "permission": "pengaturan.post-meta"
+            }
+        ]
+    },
+    {
+        "menu_name": "Custom Post Setting",
+        "menu_link": "",
+        "menu_class": "",
+        "menu_icon": "bx bx-file",
+        "permission": "",
+        "menu_children": [
+            {
+                "menu_name": "Kategori",
+                "menu_link": "{[BASEURL]}/custom-post-category",
+                "menu_class": "",
+                "permission": "custom-post-category.lihat"
+            },
+            {
+                "menu_name": "Tipe",
+                "menu_link": "{[BASEURL]}/custom-post-type",
+                "menu_class": "",
+                "permission": "custom-post-type.lihat"
+            }
+        ]
+    },
+    {
+        "menu_name": "Gallery",
+        "menu_link": "{[BASEURL]}/gallery",
+        "menu_class": "",
+        "menu_icon": "bx bx-image",
+        "permission": "gallery.lihat"
+    },
+    {
+        "menu_name": "Partner",
+        "menu_link": "{[BASEURL]}/partner",
+        "menu_class": "",
+        "menu_icon": "bx bx-user",
+        "permission": "partner.lihat"
+    },
+    {
+        "menu_name": "Lecturer",
+        "menu_link": "{[BASEURL]}/lecturer",
+        "menu_class": "",
+        "menu_icon": "bx bx-user",
+        "permission": "lecturer.lihat"
+    },
+    {
+        "menu_name": "Mata Kuliah",
+        "menu_link": "{[BASEURL]}/course",
+        "menu_class": "",
+        "menu_icon": "bx bx-book",
+        "permission": "course.lihat"
+    },
+    {
+        "menu_name": "Slider",
+        "menu_link": "{[BASEURL]}/slider",
+        "menu_class": "",
+        "menu_icon": "bx bx-slider",
+        "permission": "slider.lihat"
+    },
+    {
+        "menu_name": "Contact",
+        "menu_link": "{[BASEURL]}/contact",
+        "menu_class": "",
+        "menu_icon": "bx bx-phone",
+        "permission": "contact.lihat"
+    }
+]

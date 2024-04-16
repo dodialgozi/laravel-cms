@@ -1,0 +1,1 @@
+<iframe src="https://drive.google.com/file/d/{{ $goDriveId }}/preview" width="100%" height="100%" style="min-height: 650px;" frameborder="0"></iframe>
