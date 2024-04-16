@@ -66,4 +66,19 @@ class Instance extends Model
     {
         return $this->hasMany(Lecturer::class, 'instance_id', 'instance_id');
     }
+
+    public function alumni()
+    {
+        return $this->hasMany(Alumnus::class, 'instance_id', 'instance_id');
+    }
+
+    public function contacts()
+    {
+        return $this->hasMany(Contact::class, 'instance_id', 'instance_id');
+    }
+
+    public function courses()
+    {
+        return $this->hasMany(Course::class, 'instance_id', 'instance_id');
+    }
 }
