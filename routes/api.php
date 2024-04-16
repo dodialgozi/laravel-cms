@@ -27,6 +27,7 @@ Route::group(['prefix' => '{domain}'], function () {
     Route::get('/settings', 'Api\InstanceController@settings');
     Route::get('/contacts', 'Api\InstanceController@contacts');
     Route::get('/courses', 'Api\InstanceController@courses');
+    Route::get('/menu', 'Api\InstanceController@menu');
 
     Route::get('/posts', 'Api\PostController@index');
     Route::get('/posts/popular', 'Api\PostController@popular');
